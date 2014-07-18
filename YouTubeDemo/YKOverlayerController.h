@@ -22,7 +22,7 @@ typedef enum {
     YKOverlayerStateSmall
 }YKOverlayerState;
 
-#define TWEAKS_SWITCH 0                 //参数调试开关
+#define TWEAKS_SWITCH 1                 //参数调试开关
 
 #if TWEAKS_SWITCH
     #define YKPlayer_MIN_WIDTH FBTweakValue(@"播放器参数", @"尺寸", @"小屏宽", 300.f)
