@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC6854A819779CCF00A7BD87 /* libFBTweak.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CC6854A319779C7800A7BD87 /* libFBTweak.a */; };
+		CC6854B11977A41E00A7BD87 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC6854B01977A41E00A7BD87 /* MessageUI.framework */; };
+		CC6854B41977AD0200A7BD87 /* 1_1440x900.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC6854B31977AD0200A7BD87 /* 1_1440x900.jpg */; };
 		CC75AE7D19761FA000055C17 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC75AE7C19761FA000055C17 /* Foundation.framework */; };
 		CC75AE7F19761FA000055C17 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC75AE7E19761FA000055C17 /* CoreGraphics.framework */; };
 		CC75AE8119761FA000055C17 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC75AE8019761FA000055C17 /* UIKit.framework */; };
@@ -22,9 +25,32 @@
 		CC75AEA119761FA100055C17 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC75AE8019761FA000055C17 /* UIKit.framework */; };
 		CC75AEA919761FA100055C17 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CC75AEA719761FA100055C17 /* InfoPlist.strings */; };
 		CC75AEAB19761FA100055C17 /* YouTubeDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC75AEAA19761FA100055C17 /* YouTubeDemoTests.m */; };
+		CC75AEB619761FDE00055C17 /* YKOverlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC75AEB519761FDE00055C17 /* YKOverlayerController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CCCFF67C197670BD0013659A /* VideoPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCCFF67B197670BD0013659A /* VideoPlayerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		CC6854A219779C7800A7BD87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC68549D19779C7800A7BD87 /* FBTweak.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 18EFE46E189EBA4900DA6A5D;
+			remoteInfo = FBTweak;
+		};
+		CC6854A419779C7800A7BD87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC68549D19779C7800A7BD87 /* FBTweak.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 18EFE47E189EBA4900DA6A5D;
+			remoteInfo = FBTweakTests;
+		};
+		CC6854A619779C8200A7BD87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC68549D19779C7800A7BD87 /* FBTweak.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 18EFE46D189EBA4900DA6A5D;
+			remoteInfo = FBTweak;
+		};
 		CC75AEA219761FA100055C17 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = CC75AE7119761FA000055C17 /* Project object */;
@@ -35,6 +61,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CC68549D19779C7800A7BD87 /* FBTweak.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FBTweak.xcodeproj; path = "Tweaks-master/FBTweak.xcodeproj"; sourceTree = "<group>"; };
+		CC6854B01977A41E00A7BD87 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		CC6854B31977AD0200A7BD87 /* 1_1440x900.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1_1440x900.jpg; sourceTree = "<group>"; };
 		CC75AE7919761FA000055C17 /* YouTubeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YouTubeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC75AE7C19761FA000055C17 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CC75AE7E19761FA000055C17 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -55,6 +84,10 @@
 		CC75AEA619761FA100055C17 /* YouTubeDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YouTubeDemoTests-Info.plist"; sourceTree = "<group>"; };
 		CC75AEA819761FA100055C17 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CC75AEAA19761FA100055C17 /* YouTubeDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YouTubeDemoTests.m; sourceTree = "<group>"; };
+		CC75AEB419761FDE00055C17 /* YKOverlayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKOverlayerController.h; sourceTree = "<group>"; };
+		CC75AEB519761FDE00055C17 /* YKOverlayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKOverlayerController.m; sourceTree = "<group>"; };
+		CCCFF67A197670BD0013659A /* VideoPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoPlayerViewController.h; sourceTree = "<group>"; };
+		CCCFF67B197670BD0013659A /* VideoPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoPlayerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +95,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC6854B11977A41E00A7BD87 /* MessageUI.framework in Frameworks */,
+				CC6854A819779CCF00A7BD87 /* libFBTweak.a in Frameworks */,
 				CC75AE7F19761FA000055C17 /* CoreGraphics.framework in Frameworks */,
 				CC75AE8119761FA000055C17 /* UIKit.framework in Frameworks */,
 				CC75AE7D19761FA000055C17 /* Foundation.framework in Frameworks */,
@@ -81,9 +116,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CC68549E19779C7800A7BD87 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC6854A319779C7800A7BD87 /* libFBTweak.a */,
+				CC6854A519779C7800A7BD87 /* FBTweakTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		CC75AE7019761FA000055C17 = {
 			isa = PBXGroup;
 			children = (
+				CC68549D19779C7800A7BD87 /* FBTweak.xcodeproj */,
 				CC75AE8219761FA000055C17 /* YouTubeDemo */,
 				CC75AEA419761FA100055C17 /* YouTubeDemoTests */,
 				CC75AE7B19761FA000055C17 /* Frameworks */,
@@ -103,6 +148,7 @@
 		CC75AE7B19761FA000055C17 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CC6854B01977A41E00A7BD87 /* MessageUI.framework */,
 				CC75AE7C19761FA000055C17 /* Foundation.framework */,
 				CC75AE7E19761FA000055C17 /* CoreGraphics.framework */,
 				CC75AE8019761FA000055C17 /* UIKit.framework */,
@@ -114,12 +160,17 @@
 		CC75AE8219761FA000055C17 /* YouTubeDemo */ = {
 			isa = PBXGroup;
 			children = (
+				CC6854B31977AD0200A7BD87 /* 1_1440x900.jpg */,
 				CC75AE8B19761FA000055C17 /* AppDelegate.h */,
 				CC75AE8C19761FA000055C17 /* AppDelegate.m */,
 				CC75AE8E19761FA000055C17 /* Main_iPhone.storyboard */,
 				CC75AE9119761FA000055C17 /* Main_iPad.storyboard */,
 				CC75AE9419761FA000055C17 /* ViewController.h */,
 				CC75AE9519761FA000055C17 /* ViewController.m */,
+				CC75AEB419761FDE00055C17 /* YKOverlayerController.h */,
+				CC75AEB519761FDE00055C17 /* YKOverlayerController.m */,
+				CCCFF67A197670BD0013659A /* VideoPlayerViewController.h */,
+				CCCFF67B197670BD0013659A /* VideoPlayerViewController.m */,
 				CC75AE9719761FA000055C17 /* Images.xcassets */,
 				CC75AE8319761FA000055C17 /* Supporting Files */,
 			);
@@ -169,6 +220,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				CC6854A719779C8200A7BD87 /* PBXTargetDependency */,
 			);
 			name = YouTubeDemo;
 			productName = YouTubeDemo;
@@ -218,6 +270,12 @@
 			mainGroup = CC75AE7019761FA000055C17;
 			productRefGroup = CC75AE7A19761FA000055C17 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = CC68549E19779C7800A7BD87 /* Products */;
+					ProjectRef = CC68549D19779C7800A7BD87 /* FBTweak.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				CC75AE7819761FA000055C17 /* YouTubeDemo */,
@@ -225,6 +283,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		CC6854A319779C7800A7BD87 /* libFBTweak.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libFBTweak.a;
+			remoteRef = CC6854A219779C7800A7BD87 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CC6854A519779C7800A7BD87 /* FBTweakTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = FBTweakTests.xctest;
+			remoteRef = CC6854A419779C7800A7BD87 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		CC75AE7719761FA000055C17 /* Resources */ = {
@@ -235,6 +310,7 @@
 				CC75AE9819761FA000055C17 /* Images.xcassets in Resources */,
 				CC75AE9019761FA000055C17 /* Main_iPhone.storyboard in Resources */,
 				CC75AE8719761FA000055C17 /* InfoPlist.strings in Resources */,
+				CC6854B41977AD0200A7BD87 /* 1_1440x900.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,9 +329,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCCFF67C197670BD0013659A /* VideoPlayerViewController.m in Sources */,
 				CC75AE9619761FA000055C17 /* ViewController.m in Sources */,
 				CC75AE8D19761FA000055C17 /* AppDelegate.m in Sources */,
 				CC75AE8919761FA000055C17 /* main.m in Sources */,
+				CC75AEB619761FDE00055C17 /* YKOverlayerController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +348,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		CC6854A719779C8200A7BD87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FBTweak;
+			targetProxy = CC6854A619779C8200A7BD87 /* PBXContainerItemProxy */;
+		};
 		CC75AEA319761FA100055C17 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = CC75AE7819761FA000055C17 /* YouTubeDemo */;
@@ -345,7 +428,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -378,7 +461,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -390,10 +473,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: zhang yi (B7ATM24FXG)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YouTubeDemo/YouTubeDemo-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SYMROOT)/Headers",
+				);
 				INFOPLIST_FILE = "YouTubeDemo/YouTubeDemo-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "44FB21DB-2A85-41E3-8EB6-4D755CDFBDDC";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -403,10 +494,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Youku.com Inc. (4S68FLC2TS)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YouTubeDemo/YouTubeDemo-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SYMROOT)/Headers",
+				);
 				INFOPLIST_FILE = "YouTubeDemo/YouTubeDemo-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "FB5B7BC7-1C04-4CE8-A0D3-814239FF68E2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -470,6 +568,7 @@
 				CC75AEB019761FA100055C17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CC75AEB119761FA100055C17 /* Build configuration list for PBXNativeTarget "YouTubeDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +577,7 @@
 				CC75AEB319761FA100055C17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
